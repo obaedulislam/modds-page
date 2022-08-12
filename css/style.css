@@ -6,3 +6,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
 
 /* ====| Font Integration End Here |==== */
+
+/* ====| Common CSS Start Here |==== */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h5{
+    font-size: 24px;
+    line-height: 34px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+/* ====| Common CSS End Here |==== */
+
+/* ====| Hero CSS Start Here |==== */
+header{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/hero-bg.jpg);
+}
+/* ====| Hero CSS End Here |==== */

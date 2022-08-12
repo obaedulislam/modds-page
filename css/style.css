@@ -18,20 +18,37 @@ body{
 h1{
     font-size: 48px;
 }
-h3{
+h2{
     font-size: 36px;
 }
+h3{
+    font-size: 32px;
+}
 h5{
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 22px;
+    line-height: 32px;
+}
+h6{
+    font-size: 18px;
 }
 p{
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.section-head{
+    background-color: #252525;
 }
 /* ====| Common CSS End Here |==== */
 
 /* ====| Hero CSS Start Here |==== */
 header{
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.reader-section{
+    background-image: url(../images/reader-body-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* ====| Hero CSS End Here |==== */

@@ -34,21 +34,52 @@ h6{
 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    font-weight: 400;
 }
-.section-head{
+.primary-bg-color{
     background-color: #252525;
+}
+.primary-color{
+    color: #252525;
+}
+.secondary-bg-color{
+    background-color: #fff000;
+}
+.secondary-color{
+    color: #fff000;
+}
+.background-position{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 /* ====| Common CSS End Here |==== */
 
 /* ====| Hero CSS Start Here |==== */
 header{
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/hero-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
 }
 .reader-section{
     background-image: url(../images/reader-body-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.bookies-odds .facts p i, .tricked-section .tricked-icon p i {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.tricked-main{
+    background-image: url(../images/tricked-bg.png);
+}
+.tricked{
+    background-color: #eeeeee;
+    transition: .5s;
+}
+.tricked:hover{
+    background-color: #ffffff;
 }
 /* ====| Hero CSS End Here |==== */

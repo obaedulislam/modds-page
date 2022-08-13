@@ -33,8 +33,9 @@ h6{
 }
 p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
 }
 .primary-bg-color{
     background-color: #252525;
@@ -81,5 +82,14 @@ header{
 }
 .tricked:hover{
     background-color: #ffffff;
+}
+.moods-img img{
+    width: 55%;
+}
+.border-left-color{
+    border-left: 7px solid #252525;
+}
+.border-right-color{
+    border-right: 7px solid #252525;
 }
 /* ====| Hero CSS End Here |==== */

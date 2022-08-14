@@ -52,6 +52,9 @@ p{
 .secondary-color{
     color: #fff000;
 }
+.secondary-bg-color-opacity{
+    background-color: #ffee006d;
+}
 .background-position{
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,9 +63,9 @@ p{
 /* ====| Common CSS End Here |==== */
 
 /* ====| Hero CSS Start Here |==== */
-header{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/hero-bg.jpg);
-
+header {
+    background:  url(../images/bg-header.jpg);
+    background-attachment: fixed;
 }
 .reader-section{
     background-image: url(../images/reader-body-bg.png);
@@ -79,21 +82,53 @@ header{
 .tricked-main{
     background-image: url(../images/tricked-bg.png);
 }
-.tricked{
+.tricked, .common-gray{
     background-color: #eeeeee;
     transition: .5s;
 }
 .tricked:hover{
     background-color: #ffffff;
 }
-.moods-img img{
-    width: 55%;
+.primary-bg-opacity{
+    background-color: #252525bd;
+}
+.moods-img img, .gmail img{
+    width: 70%;
+}
+
+.latest-form-section{
+    background-image: url(../images/reader-bg-body.png);
+} 
+
+.results-section
+.hundred-days{
+    background-image: url(../images/100-days.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hundred-days-two{
+    background-image: url(../images/100days-bg-2.png);
+}
+.football-bet-bg{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/football-bet.png);
+}
+ul.list-group li{
+    list-style: none;
+}
+.moroccan-flower{
+    background-image: url(../images/moroccan-flower.png);
+}
+.email-pattern{
+    background-image: url(../images/email-pattern.png);
 }
 .border-left-color{
     border-left: 7px solid #252525;
 }
 .border-right-color{
     border-right: 7px solid #252525;
+}
+.matlabs-bg{
+    background-image: url(../images/matlabs.jpg);
 }
 
 .sign-up button {
@@ -126,5 +161,9 @@ header{
 }
 .owl-dots{
     margin-top: 20px;
+}
+
+.price-section{
+    background-image: url(../images/bundle-bg.png);
 }
 /* ====| Hero CSS End Here |==== */

@@ -24,6 +24,9 @@ h2{
 h3{
     font-size: 32px;
 }
+h4{
+    font-size: 26px;
+}
 h5{
     font-size: 22px;
     line-height: 32px;
@@ -91,5 +94,37 @@ header{
 }
 .border-right-color{
     border-right: 7px solid #252525;
+}
+
+.sign-up button {
+    background-color: #fbdd13;
+    color: #222222;
+    border: none;
+    font-size: 26px;
+    border: 3px solid #222222;
+    border-bottom: 7px solid #222222;
+    border-radius: 8px;
+    transition: .5s;
+}
+.sign-up button:hover{
+    background-color: #F5F5F5;
+    transform: scale(1.05);
+}
+.single-slider {
+    min-height: 430px;
+}
+.slider .client-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.slider .client-content p{
+    font-size: 16px;
+}
+.owl-theme .owl-nav {
+    display: none;
+}
+.owl-dots{
+    margin-top: 20px;
 }
 /* ====| Hero CSS End Here |==== */

@@ -1,6 +1,7 @@
 /* ====| Font Integration Start Here |==== */
 /* Poppins Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
+
 
 /* Montserat Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
@@ -13,13 +14,16 @@
     padding: 0;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container{
+    max-width: 992px;
 }
 h1{
     font-size: 48px;
 }
 h2{
-    font-size: 36px;
+    font-size:40px;
 }
 h3{
     font-size: 32px;
@@ -35,7 +39,7 @@ h6{
     font-size: 18px;
 }
 p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-weight: 500;
     color: #000;
@@ -70,7 +74,12 @@ header {
 .reader-section{
     background-image: url(../images/reader-body-bg.png);
 }
-
+header .logo img{
+    width: 250px;
+}
+.bookies-odds {
+    background:url(../images/remoddsimages/shutterstock_1956742048.jpg);
+}
 .bookies-odds .facts p i, .tricked-section .tricked-icon p i {
     font-size: 30px;
     text-align: center;
@@ -99,13 +108,6 @@ header {
 .latest-form-section{
     background-image: url(../images/reader-bg-body.png);
 } 
-
-.results-section
-.hundred-days{
-    background-image: url(../images/100-days.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .hundred-days-two{
     background-image: url(../images/100days-bg-2.png);
 }

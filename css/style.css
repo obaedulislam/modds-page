@@ -51,10 +51,10 @@ p{
     color: #252525;
 }
 .secondary-bg-color{
-    background-color: #fff000;
+    background-color: #f18d00;
 }
 .secondary-color{
-    color: #fff000;
+    color: #f18d00;
 }
 .secondary-bg-color-opacity{
     background-color: #ffee006d;
@@ -141,12 +141,13 @@ ul.list-group li{
 }
 
 .make-call-main{
-    background-image: url(../images/remoddsimages/and-machines-SZd_V4A8gYo-unsplash.jpg);
+    background-image: url(../images/bundle-bg.png);
+    background-attachment: fixed;
 }
 
 .sign-up button {
-    background-color: #fbdd13;
-    color: #222222;
+    background-color: #f18d00;
+    color: #ffffff;
     border: none;
     font-size: 26px;
     border: 3px solid #222222;

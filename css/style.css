@@ -23,7 +23,7 @@ h1{
     font-size: 48px;
 }
 h2{
-    font-size:40px;
+    font-size:36px;
 }
 h3{
     font-size: 32px;
@@ -114,7 +114,7 @@ header .logo img{
 } 
 
 .football-bet-bg{
-    background-image: url(../images/remoddsimages/and-machines-ceCISmZkDXg-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/remoddsimages/and-machines-ceCISmZkDXg-unsplash.jpg);
 }
 ul.list-group li{
     list-style: none;
@@ -135,7 +135,7 @@ ul.list-group li{
 }
 
 .xg90-section{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../images/remoddsimages/and-machines-YLplJ9m_RKE-unsplash.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/remoddsimages/and-machines-YLplJ9m_RKE-unsplash.jpg);
     background-attachment: fixed;
 
 }
@@ -156,7 +156,8 @@ ul.list-group li{
     transition: .5s;
 }
 .sign-up button:hover{
-    background-color: #F5F5F5;
+    background-color: #fff;
+    color: #252525;
     transform: scale(1.05);
 }
 .single-slider {

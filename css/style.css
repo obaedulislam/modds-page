@@ -40,7 +40,7 @@ h6{
 }
 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
     color: #000;
 }
@@ -98,6 +98,10 @@ header .logo img{
 .tricked:hover{
     background-color: #ffffff;
 }
+.moods-odds-section{
+    background-image: url(../images/remoddsimages/shubham-dhage-TbhRAV5xDtA-unsplash.jpg);
+    background-attachment: fixed;
+}
 .primary-bg-opacity{
     background-color: #252525bd;
 }
@@ -108,20 +112,16 @@ header .logo img{
 .latest-form-section{
     background-image: url(../images/reader-bg-body.png);
 } 
-.hundred-days-two{
-    background-image: url(../images/100days-bg-2.png);
-}
+
 .football-bet-bg{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/football-bet.png);
+    background-image: url(../images/remoddsimages/and-machines-ceCISmZkDXg-unsplash.jpg);
 }
 ul.list-group li{
     list-style: none;
 }
-.moroccan-flower{
-    background-image: url(../images/moroccan-flower.png);
-}
+
 .email-pattern{
-    background-image: url(../images/email-pattern.png);
+    background-image: url(../images/remoddsimages/shutterstock_411659038.jpg);
 }
 .border-left-color{
     border-left: 7px solid #252525;
@@ -130,7 +130,18 @@ ul.list-group li{
     border-right: 7px solid #252525;
 }
 .matlabs-bg{
-    background-image: url(../images/matlabs.jpg);
+    background-image: url(../images/remoddsimages/and-machines-IdLvDTBu5U4-unsplash.jpg);
+    background-attachment: fixed;
+}
+
+.xg90-section{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../images/remoddsimages/and-machines-YLplJ9m_RKE-unsplash.jpg);
+    background-attachment: fixed;
+
+}
+
+.make-call-main{
+    background-image: url(../images/remoddsimages/and-machines-SZd_V4A8gYo-unsplash.jpg);
 }
 
 .sign-up button {
@@ -148,7 +159,7 @@ ul.list-group li{
     transform: scale(1.05);
 }
 .single-slider {
-    min-height: 430px;
+    min-height: 460px;
 }
 .slider .client-img img{
     width: 100px;

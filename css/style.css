@@ -17,7 +17,7 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 .container{
-    max-width: 992px;
+    max-width: 1050px;
 }
 h1{
     font-size: 48px;
@@ -68,7 +68,7 @@ p{
 
 /* ====| Hero CSS Start Here |==== */
 header {
-    background:  url(../images/bg-header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/bg-header.jpg);
     background-attachment: fixed;
 }
 .reader-section{
@@ -79,6 +79,7 @@ header .logo img{
 }
 .bookies-odds {
     background:url(../images/remoddsimages/shutterstock_1956742048.jpg);
+    background-attachment: fixed;
 }
 .bookies-odds .facts p i, .tricked-section .tricked-icon p i {
     font-size: 30px;
@@ -115,6 +116,7 @@ header .logo img{
 
 .football-bet-bg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/remoddsimages/and-machines-ceCISmZkDXg-unsplash.jpg);
+    background-attachment: fixed;
 }
 ul.list-group li{
     list-style: none;
@@ -122,6 +124,7 @@ ul.list-group li{
 
 .email-pattern{
     background-image: url(../images/remoddsimages/shutterstock_411659038.jpg);
+    background-attachment:  fixed;
 }
 .border-left-color{
     border-left: 7px solid #252525;
@@ -135,7 +138,7 @@ ul.list-group li{
 }
 
 .xg90-section{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/remoddsimages/and-machines-YLplJ9m_RKE-unsplash.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/remoddsimages/and-machines-YLplJ9m_RKE-unsplash.jpg);
     background-attachment: fixed;
 
 }

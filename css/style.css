@@ -94,28 +94,25 @@ header .logo img{
 .tricked:hover{
     background-color: #ffffff;
 }
-.moods-odds-section{
-    background-image: url(../images/remoddsimages/shubham-dhage-TbhRAV5xDtA-unsplash.jpg);
-    background-attachment: fixed;
-}
+
 .primary-bg-opacity{
     background-color: #252525bd;
 }
 .moods-img img, .gmail img{
     width: 70%;
 }
-
-.latest-form-section{
-    background-image: url(../images/reader-bg-body.png);
-} 
-
 ul.list-group li{
     list-style: none;
 }
 
-.email-pattern{
-    background-image: url(../images/remoddsimages/shutterstock_411659038.jpg);
-    background-attachment:  fixed;
+.moods-odds-section {
+    background-image: url(../images/background2.jpg);
+    background-attachment: fixed;
+}
+
+.mail-section{
+    background-image: url(../images/background3.jpg);
+    background-attachment: fixed;
 }
 .border-left-color{
     border-left: 7px solid #252525;
@@ -123,21 +120,21 @@ ul.list-group li{
 .border-right-color{
     border-right: 7px solid #252525;
 }
-.matlabs-bg{
-    background-image: url(../images/remoddsimages/and-machines-IdLvDTBu5U4-unsplash.jpg);
+.bigger-pic-section {
+    background-image: url(../images/background-4.jpg);
     background-attachment: fixed;
 }
 
-.xg90-section{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/remoddsimages/and-machines-YLplJ9m_RKE-unsplash.jpg);
-    background-attachment: fixed;
-
-}
-
-.make-call-main{
-    background-image: url(../images/bundle-bg.png);
+.profit-section{
+    background-image: url(../images/background5.jpg);
     background-attachment: fixed;
 }
+.add-to-cart-section{
+    background-image: url(../images/background6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
 
 .sign-up button {
     background-color: #f18d00;
@@ -172,7 +169,4 @@ ul.list-group li{
     margin-top: 20px;
 }
 
-.price-section{
-    background-image: url(../images/bundle-bg.png);
-}
 /* ====| Hero CSS End Here |==== */

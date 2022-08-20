@@ -15,6 +15,7 @@
 }
 body{
     font-family: 'Noto Sans', sans-serif;
+    background-color: #ddd;
 }
 .container{
     max-width: 1050px;
@@ -70,18 +71,15 @@ p{
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/bg-header.jpg);
     background-attachment: fixed;
+    padding-bottom: 150px;
 }
-.reader-section{
-    background-image: url(../images/reader-body-bg.png);
+.reader-margin{
+    margin-top: -150px;
 }
 header .logo img{
     width: 250px;
 }
-.bookies-odds {
-    background:url(../images/remoddsimages/shutterstock_1956742048.jpg);
-    background-attachment: fixed;
-}
-.bookies-odds .facts p i, .tricked-section .tricked-icon p i {
+.bookies-odds .facts p i, .tricked-icon p i {
     font-size: 30px;
     text-align: center;
     padding: 10px;
@@ -89,9 +87,6 @@ header .logo img{
     height: 50px;
 }
 
-.tricked-main{
-    background-image: url(../images/tricked-bg.png);
-}
 .tricked, .common-gray{
     background-color: #eeeeee;
     transition: .5s;
@@ -114,10 +109,6 @@ header .logo img{
     background-image: url(../images/reader-bg-body.png);
 } 
 
-.football-bet-bg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/remoddsimages/and-machines-ceCISmZkDXg-unsplash.jpg);
-    background-attachment: fixed;
-}
 ul.list-group li{
     list-style: none;
 }
